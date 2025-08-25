@@ -1,9 +1,9 @@
 {
-  "name": "Jojo",
+  "name": "Jojooj",
   "gender": "女",
-  "birthday": "2002-05-18",
-  "zodiac": "金牛座",
-  "mbti": "ENFJ",
+  "birthday": "1900-05-18",
+  "zodiac": "双鱼座",
+  "mbti": "INFJ",
   "hobbies": [
     "阅读",
     "冥想",
@@ -58,4 +58,5 @@
       "tag": "网速问题"
     }
   ]
+
 }
