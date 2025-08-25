@@ -1,4 +1,4 @@
-<img width="1024" height="1536" alt="ChatGPT Image 2025年8月25日 23_24_36" src="https://github.com/user-attachments/assets/0ad44c0c-8b1f-4e71-a943-a3ebbdf0b77b" />
+<img width="1536" height="1024" alt="ChatGPT Image 2025年8月25日 23_35_52" src="https://github.com/user-attachments/assets/a191aa8c-5c98-49be-a590-5189a577e75c" />
 
 ---  
 
@@ -141,6 +141,7 @@ python -m EchoScribe.src.letter_generator
 
 ### 许可证
 本仓库未附带明确许可证，请在公开或商用前确认版权与第三方模型/接口条款。
+
 
 
 
