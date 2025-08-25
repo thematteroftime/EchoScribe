@@ -5,6 +5,16 @@
 - 事件提取（基于文本与 LLM）→ 结构化 JSON 输出 → 用户档案索引
 - 周期性信件生成（基于事件与用户画像）→ 文本信件产出
 
+### 三大 Runner（可独立运行，组合为完整功能）
+- transcription_processor_runner.py：监控 `input_chunks/` 的音频分片，转写为 `archive/*.txt`，并按配置进行文本润色到 `polished_results/`。
+  - 运行：`python transcription_processor_runner.py`
+- event_processor_runner.py：将 `archive/*.txt`（优先 `polished_results/`）解析为结构化事件，写入 `dataset/*.json`，并更新 `user_profile.json`。
+  - 运行：`python event_processor_runner.py`
+- letter_generator_runner.py：聚合 `dataset/*.json` 与 `user_profile.json`，当事件数达阈值时生成信件到 `letter_output/`。
+  - 运行：`python letter_generator_runner.py`
+
+以上三个可分别启动；同时运行可实现端到端流水线。
+
 ### 目录结构总览
 
 ```
@@ -26,6 +36,8 @@ EchoScribe/
     model_manager.py      # 模型实例管理与缓存
     logs/                 # 运行日志
   transcription_processor_runner.py  # 启动器（环境与 GPU 状态检查）
+  event_processor_runner.py          # 事件抽取的独立运行脚本
+  letter_generator_runner.py         # 信件生成的独立运行脚本
   requirements.txt        # 依赖
 ```
 
@@ -59,11 +71,13 @@ cp config/system_config.sample.json config/system_config.json
 ```
 并用你自己的环境变量或私密字符串替换示例中的占位符（建议使用环境变量或本地密钥管理）。
 
-3) 运行语音转写主程序
+3) 单独运行各 Runner（推荐分别开终端运行）
 ```bash
-python transcription_processor_runner.py
+python transcription_processor_runner.py      # 音频 → archive/*.txt & polished_results/
+python event_processor_runner.py              # 文本 → dataset/*.json & 更新用户档案
+python letter_generator_runner.py             # 事件+用户 → letter_output/*.txt
 ```
-或直接在 `src` 目录内：
+或直接在 `src` 目录内（仅语音转写主程序）：
 ```bash
 python src/main.py
 ```
@@ -101,6 +115,12 @@ python -m EchoScribe.src.letter_generator
 3) `MemoryBuffer` 暂存 → `MergeManager` 定期合并 → `archive/full_*.txt`
 4) 事件处理器读取文本 → LLM → `dataset/YYYYMMDD-NNN.json`，并更新 `user_profile.json`
 5) 信件生成器达阈值后运行 → 输出 `letter_output/letter_YYYYMMDD_HHMMSS.txt`
+
+### 重启与清理建议（重要）
+- 当前未对“开关重启/断点续跑/去重清理”做优化。为避免重复或脏数据：
+  - 重启前建议清理本次产生的中间/输出：`archive/`、`polished_results/`、`dataset/`、`letter_output/` 中与本轮相关的文件。
+  - 若使用同一批输入多次重跑，务必确认 `user_profile.json` 中的 `event_index` 是否需要回滚或去重。
+  - 生产环境可在后续增加“去重标记/断点记录/幂等写入”以提升可恢复性。
 
 ### 日志位置
 - 系统日志：`src/logs/*.log` 与根目录 `logs/system.log`（按模块而定）
