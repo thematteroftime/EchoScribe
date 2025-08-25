@@ -35,8 +35,8 @@ class EventProcessor:
         self.dataset_dir = "dataset"  # 事件 JSON 输出位置
         self.template_dir = "json_template"  # 事件模板所在目录
         self.user_profile_path = "user_profile.json"  # 用户档案索引文件
-        self.flag = 9  # 内部游标（选择文件用）
-        self.old_flag = 9
+        self.flag = 0  # 内部游标（选择文件用）
+        self.old_flag = 0
 
         # 加载配置
         self.model_cfg = load_model_config()
@@ -442,3 +442,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
