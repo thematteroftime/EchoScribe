@@ -1,0 +1,17 @@
+{
+    "name": "用户真实姓名",
+    "gender": "性别（男/女/其他）",
+    "birthday": "出生日期（YYYY-MM-DD格式）",
+    "zodiac": "星座（中文名称）",
+    "mbti": "MBTI人格类型（4字母代码）",
+    "hobbies": ["核心兴趣标签1", "核心兴趣标签2"],
+    "occupation": "职业身份（如学生/工程师）",
+    "identity": "社会角色（如大学生/项目经理）",
+    "event_index": [
+      {
+        "id": "关联事件ID（对应dataset中的文件名）",
+        "name": "事件名称（取自事件JSON的title字段）",
+        "tag": "事件标签（取自事件JSON的tag字段）"
+      }
+    ]
+  }

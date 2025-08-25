@@ -1,0 +1,211 @@
+2025-08-25 02:36:20,133 - INFO - MainThread - 收到停止信号，正在关闭系统...
+2025-08-25 02:36:20,137 - INFO - MainThread - 正在停止润色处理器...
+2025-08-25 03:23:37,315 - INFO - MainThread - GPU内存较小(4.0GB)，调整并发数为: 2
+2025-08-25 03:23:39,217 - INFO - MainThread - 润色服务初始化成功: deepseek
+2025-08-25 03:23:39,236 - INFO - MainThread - 加载已处理文件列表: 1 个文件
+2025-08-25 03:23:39,237 - INFO - MainThread - 润色处理器初始化完成
+2025-08-25 03:23:39,237 - INFO - MainThread - 启动语音转写系统...
+2025-08-25 03:23:39,242 - INFO - MainThread - SystemManager started
+2025-08-25 03:23:39,243 - INFO - MainThread - 启动独立的润色处理器...
+2025-08-25 03:23:39,243 - INFO - WorkerThread-0 - 创建新的模型实例: damo/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch_cuda
+2025-08-25 03:23:39,244 - INFO - WorkerThread-1 - 创建新的模型实例: damo/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch_cuda
+2025-08-25 03:23:39,245 - INFO - WorkerThread-0 - download models from model hub: ms
+2025-08-25 03:23:39,245 - INFO - PolishProcessor - 润色处理器启动，监控目录: archive
+2025-08-25 03:23:39,246 - INFO - MainThread - 润色处理器已启动
+2025-08-25 03:23:39,246 - INFO - WorkerThread-1 - download models from model hub: ms
+2025-08-25 03:23:44,905 - WARNING - WorkerThread-1 - trust_remote_code: False
+2025-08-25 03:23:48,550 - INFO - WorkerThread-1 - Loading pretrained params from C:\Users\21079\.cache\modelscope\hub\models\damo\speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch\model.pt
+2025-08-25 03:23:48,569 - INFO - WorkerThread-1 - ckpt: C:\Users\21079\.cache\modelscope\hub\models\damo\speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch\model.pt
+2025-08-25 03:23:50,029 - INFO - WorkerThread-1 - scope_map: ['module.', 'None']
+2025-08-25 03:23:50,030 - INFO - WorkerThread-1 - excludes: None
+2025-08-25 03:23:50,290 - WARNING - WorkerThread-0 - trust_remote_code: False
+2025-08-25 03:23:54,399 - INFO - WorkerThread-0 - Loading pretrained params from C:\Users\21079\.cache\modelscope\hub\models\damo\speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch\model.pt
+2025-08-25 03:23:54,422 - INFO - WorkerThread-0 - ckpt: C:\Users\21079\.cache\modelscope\hub\models\damo\speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch\model.pt
+2025-08-25 03:23:57,469 - INFO - WorkerThread-0 - scope_map: ['module.', 'None']
+2025-08-25 03:23:57,471 - INFO - WorkerThread-0 - excludes: None
+2025-08-25 03:24:02,226 - INFO - WorkerThread-1 - Loading ckpt: C:\Users\21079\.cache\modelscope\hub\models\damo\speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch\model.pt, status: <All keys matched successfully>
+2025-08-25 03:24:04,241 - INFO - WorkerThread-0 - Loading ckpt: C:\Users\21079\.cache\modelscope\hub\models\damo\speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch\model.pt, status: <All keys matched successfully>
+2025-08-25 03:24:05,774 - INFO - WorkerThread-1 - 模型实例创建成功: damo/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch_cuda
+2025-08-25 03:24:05,796 - INFO - WorkerThread-1 - 开始转写文件: 001.wav (大小: 2.00 MB)
+2025-08-25 03:24:05,973 - INFO - WorkerThread-0 - 模型实例创建成功: damo/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch_cuda
+2025-08-25 03:24:05,976 - INFO - WorkerThread-0 - 开始转写文件: 000.wav (大小: 2.00 MB)
+2025-08-25 03:24:22,683 - INFO - WorkerThread-1 - 转写完成: 001.wav, 文本长度: 330
+2025-08-25 03:24:22,684 - INFO - WorkerThread-1 - transcribed seq=1 len=330
+2025-08-25 03:24:22,686 - INFO - WorkerThread-1 - 使用缓存的模型实例: damo/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch_cuda
+2025-08-25 03:24:22,816 - INFO - WorkerThread-0 - 转写完成: 000.wav, 文本长度: 293
+2025-08-25 03:24:23,065 - INFO - WorkerThread-0 - transcribed seq=0 len=293
+2025-08-25 03:24:23,067 - INFO - WorkerThread-0 - 使用缓存的模型实例: damo/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch_cuda
+2025-08-25 03:24:23,069 - INFO - WorkerThread-0 - 开始转写文件: 001.wav (大小: 2.00 MB)
+2025-08-25 03:24:23,070 - INFO - WorkerThread-1 - 开始转写文件: 001.wav (大小: 2.00 MB)
+2025-08-25 03:24:24,633 - INFO - WorkerThread-0 - 转写完成: 001.wav, 文本长度: 330
+2025-08-25 03:24:24,635 - INFO - WorkerThread-0 - transcribed seq=1 len=330
+2025-08-25 03:24:24,640 - INFO - WorkerThread-0 - 使用缓存的模型实例: damo/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch_cuda
+2025-08-25 03:24:24,641 - INFO - WorkerThread-0 - 开始转写文件: 001.wav (大小: 2.00 MB)
+2025-08-25 03:24:24,785 - INFO - WorkerThread-1 - 转写完成: 001.wav, 文本长度: 330
+2025-08-25 03:24:24,799 - INFO - WorkerThread-1 - transcribed seq=1 len=330
+2025-08-25 03:24:24,801 - INFO - WorkerThread-1 - 使用缓存的模型实例: damo/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch_cuda
+2025-08-25 03:24:24,803 - INFO - WorkerThread-1 - 开始转写文件: 001.wav (大小: 2.00 MB)
+2025-08-25 03:24:26,255 - INFO - WorkerThread-0 - 转写完成: 001.wav, 文本长度: 330
+2025-08-25 03:24:26,256 - INFO - WorkerThread-0 - transcribed seq=1 len=330
+2025-08-25 03:24:26,427 - INFO - WorkerThread-1 - 转写完成: 001.wav, 文本长度: 330
+2025-08-25 03:24:26,428 - INFO - WorkerThread-1 - transcribed seq=1 len=330
+2025-08-25 03:24:36,539 - INFO - MergeThread - 合并完成: archive\full_000_to_001.txt
+2025-08-25 03:24:44,763 - INFO - WorkerThread-0 - 使用缓存的模型实例: damo/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch_cuda
+2025-08-25 03:24:44,764 - ERROR - WorkerThread-0 - 音频文件为空: Z:/test/002.wav
+2025-08-25 03:24:44,766 - WARNING - WorkerThread-0 - empty transcript, moved to failed handled in job
+2025-08-25 03:24:57,590 - INFO - WorkerThread-1 - 使用缓存的模型实例: damo/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch_cuda
+2025-08-25 03:24:57,592 - INFO - WorkerThread-1 - 开始转写文件: 002.wav (大小: 1.00 MB)
+2025-08-25 03:24:59,168 - INFO - WorkerThread-1 - 转写完成: 002.wav, 文本长度: 179
+2025-08-25 03:24:59,168 - INFO - WorkerThread-1 - transcribed seq=2 len=179
+2025-08-25 03:25:06,550 - INFO - MergeThread - 合并完成: archive\full_002_to_002.txt
+2025-08-25 03:25:07,262 - INFO - PolishProcessor - 发现 1 个待处理文件
+2025-08-25 03:25:07,262 - INFO - PolishProcessor - 开始处理文件: full_002_to_002.txt
+2025-08-25 03:25:09,594 - INFO - PolishProcessor - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-08-25 03:25:18,326 - INFO - PolishProcessor - 润色成功，文本长度: 179 -> 202
+2025-08-25 03:25:18,327 - INFO - PolishProcessor - 润色完成: full_002_to_002.txt -> polished_full_002_to_002.txt (耗时: 11.05秒)
+2025-08-25 03:25:19,172 - INFO - WorkerThread-1 - 使用缓存的模型实例: damo/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch_cuda
+2025-08-25 03:25:19,173 - INFO - WorkerThread-1 - 开始转写文件: 002.wav (大小: 2.00 MB)
+2025-08-25 03:25:21,012 - INFO - WorkerThread-1 - 转写完成: 002.wav, 文本长度: 366
+2025-08-25 03:25:21,013 - INFO - WorkerThread-1 - transcribed seq=2 len=366
+2025-08-25 03:25:36,562 - INFO - MergeThread - 合并完成: archive\full_002_to_002.txt
+2025-08-25 03:25:52,612 - INFO - WorkerThread-0 - 使用缓存的模型实例: damo/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch_cuda
+2025-08-25 03:25:52,614 - ERROR - WorkerThread-0 - 音频文件为空: Z:/test/003.wav
+2025-08-25 03:25:52,614 - WARNING - WorkerThread-0 - empty transcript, moved to failed handled in job
+2025-08-25 03:26:13,135 - INFO - WorkerThread-1 - 使用缓存的模型实例: damo/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch_cuda
+2025-08-25 03:26:13,136 - INFO - WorkerThread-1 - 开始转写文件: 003.wav (大小: 1.00 MB)
+2025-08-25 03:26:14,697 - INFO - WorkerThread-1 - 转写完成: 003.wav, 文本长度: 179
+2025-08-25 03:26:14,698 - INFO - WorkerThread-1 - transcribed seq=3 len=179
+2025-08-25 03:26:25,467 - INFO - WorkerThread-1 - 使用缓存的模型实例: damo/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch_cuda
+2025-08-25 03:26:25,468 - INFO - WorkerThread-1 - 开始转写文件: 003.wav (大小: 2.00 MB)
+2025-08-25 03:26:27,345 - INFO - WorkerThread-1 - 转写完成: 003.wav, 文本长度: 363
+2025-08-25 03:26:27,346 - INFO - WorkerThread-1 - transcribed seq=3 len=363
+2025-08-25 03:26:36,584 - INFO - MergeThread - 合并完成: archive\full_003_to_003.txt
+2025-08-25 03:26:37,284 - INFO - PolishProcessor - 发现 1 个待处理文件
+2025-08-25 03:26:37,285 - INFO - PolishProcessor - 开始处理文件: full_003_to_003.txt
+2025-08-25 03:26:39,662 - INFO - PolishProcessor - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-08-25 03:26:54,317 - INFO - PolishProcessor - 润色成功，文本长度: 363 -> 411
+2025-08-25 03:26:54,329 - INFO - PolishProcessor - 润色完成: full_003_to_003.txt -> polished_full_003_to_003.txt (耗时: 17.02秒)
+2025-08-25 03:26:56,233 - INFO - WorkerThread-1 - 使用缓存的模型实例: damo/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch_cuda
+2025-08-25 03:26:56,233 - ERROR - WorkerThread-1 - 音频文件为空: Z:/test/004.wav
+2025-08-25 03:26:56,234 - WARNING - WorkerThread-1 - empty transcript, moved to failed handled in job
+2025-08-25 03:27:04,450 - INFO - WorkerThread-1 - 使用缓存的模型实例: damo/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch_cuda
+2025-08-25 03:27:04,451 - INFO - WorkerThread-1 - 开始转写文件: 004.wav (大小: 1.00 MB)
+2025-08-25 03:27:06,110 - INFO - WorkerThread-1 - 转写完成: 004.wav, 文本长度: 149
+2025-08-25 03:27:06,111 - INFO - WorkerThread-1 - transcribed seq=4 len=149
+2025-08-25 03:27:06,591 - INFO - MergeThread - 合并完成: archive\full_004_to_004.txt
+2025-08-25 03:27:07,496 - INFO - PolishProcessor - 发现 1 个待处理文件
+2025-08-25 03:27:07,497 - INFO - PolishProcessor - 开始处理文件: full_004_to_004.txt
+2025-08-25 03:27:09,561 - INFO - PolishProcessor - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-08-25 03:27:17,757 - INFO - PolishProcessor - 润色成功，文本长度: 149 -> 201
+2025-08-25 03:27:17,759 - INFO - PolishProcessor - 润色完成: full_004_to_004.txt -> polished_full_004_to_004.txt (耗时: 10.24秒)
+2025-08-25 03:27:18,328 - INFO - WorkerThread-0 - 使用缓存的模型实例: damo/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch_cuda
+2025-08-25 03:27:18,328 - INFO - WorkerThread-0 - 开始转写文件: 004.wav (大小: 2.00 MB)
+2025-08-25 03:27:19,977 - INFO - WorkerThread-0 - 转写完成: 004.wav, 文本长度: 312
+2025-08-25 03:27:19,978 - INFO - WorkerThread-0 - transcribed seq=4 len=312
+2025-08-25 03:27:36,600 - INFO - MergeThread - 合并完成: archive\full_004_to_004.txt
+2025-08-25 03:28:01,480 - INFO - WorkerThread-1 - 使用缓存的模型实例: damo/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch_cuda
+2025-08-25 03:28:01,481 - ERROR - WorkerThread-1 - 音频文件为空: Z:/test/005.wav
+2025-08-25 03:28:01,481 - WARNING - WorkerThread-1 - empty transcript, moved to failed handled in job
+2025-08-25 03:28:16,407 - INFO - WorkerThread-0 - 使用缓存的模型实例: damo/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch_cuda
+2025-08-25 03:28:16,408 - INFO - WorkerThread-0 - 开始转写文件: 005.wav (大小: 1.00 MB)
+2025-08-25 03:28:18,042 - INFO - WorkerThread-0 - 转写完成: 005.wav, 文本长度: 154
+2025-08-25 03:28:18,043 - INFO - WorkerThread-0 - transcribed seq=5 len=154
+2025-08-25 03:28:29,263 - INFO - WorkerThread-1 - 使用缓存的模型实例: damo/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch_cuda
+2025-08-25 03:28:29,263 - INFO - WorkerThread-1 - 开始转写文件: 005.wav (大小: 2.00 MB)
+2025-08-25 03:28:31,033 - INFO - WorkerThread-1 - 转写完成: 005.wav, 文本长度: 163
+2025-08-25 03:28:31,034 - INFO - WorkerThread-1 - transcribed seq=5 len=163
+2025-08-25 03:28:36,632 - INFO - MergeThread - 合并完成: archive\full_005_to_005.txt
+2025-08-25 03:28:36,699 - INFO - PolishProcessor - 发现 1 个待处理文件
+2025-08-25 03:28:36,701 - INFO - PolishProcessor - 开始处理文件: full_005_to_005.txt
+2025-08-25 03:28:38,244 - INFO - PolishProcessor - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-08-25 03:28:46,022 - INFO - PolishProcessor - 润色成功，文本长度: 163 -> 170
+2025-08-25 03:28:46,035 - INFO - PolishProcessor - 润色完成: full_005_to_005.txt -> polished_full_005_to_005.txt (耗时: 9.31秒)
+2025-08-25 03:28:46,255 - INFO - WorkerThread-1 - 使用缓存的模型实例: damo/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch_cuda
+2025-08-25 03:28:46,256 - INFO - WorkerThread-1 - 开始转写文件: 005.wav (大小: 2.00 MB)
+2025-08-25 03:28:48,277 - INFO - WorkerThread-1 - 转写完成: 005.wav, 文本长度: 268
+2025-08-25 03:28:48,279 - INFO - WorkerThread-1 - transcribed seq=5 len=268
+2025-08-25 03:29:06,644 - INFO - MergeThread - 合并完成: archive\full_005_to_005.txt
+2025-08-25 03:29:08,414 - INFO - WorkerThread-0 - 使用缓存的模型实例: damo/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch_cuda
+2025-08-25 03:29:08,415 - ERROR - WorkerThread-0 - 音频文件为空: Z:/test/006.wav
+2025-08-25 03:29:08,415 - WARNING - WorkerThread-0 - empty transcript, moved to failed handled in job
+2025-08-25 03:29:13,535 - INFO - WorkerThread-0 - 使用缓存的模型实例: damo/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch_cuda
+2025-08-25 03:29:13,537 - INFO - WorkerThread-0 - 开始转写文件: 006.wav (大小: 2.00 MB)
+2025-08-25 03:29:15,483 - INFO - WorkerThread-0 - 转写完成: 006.wav, 文本长度: 54
+2025-08-25 03:29:15,484 - INFO - WorkerThread-0 - transcribed seq=6 len=54
+2025-08-25 03:29:30,625 - INFO - WorkerThread-1 - 使用缓存的模型实例: damo/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch_cuda
+2025-08-25 03:29:30,626 - INFO - WorkerThread-1 - 开始转写文件: 006.wav (大小: 2.00 MB)
+2025-08-25 03:29:32,532 - INFO - WorkerThread-1 - 转写完成: 006.wav, 文本长度: 228
+2025-08-25 03:29:32,532 - INFO - WorkerThread-1 - transcribed seq=6 len=228
+2025-08-25 03:29:36,713 - INFO - MergeThread - 合并完成: archive\full_006_to_006.txt
+2025-08-25 03:29:37,098 - INFO - PolishProcessor - 发现 1 个待处理文件
+2025-08-25 03:29:37,100 - INFO - PolishProcessor - 开始处理文件: full_006_to_006.txt
+2025-08-25 03:29:39,164 - INFO - PolishProcessor - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-08-25 03:29:50,028 - INFO - PolishProcessor - 润色成功，文本长度: 228 -> 257
+2025-08-25 03:29:50,031 - INFO - PolishProcessor - 润色完成: full_006_to_006.txt -> polished_full_006_to_006.txt (耗时: 12.91秒)
+2025-08-25 03:30:12,545 - INFO - WorkerThread-0 - 使用缓存的模型实例: damo/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch_cuda
+2025-08-25 03:30:12,546 - ERROR - WorkerThread-0 - 音频文件为空: Z:/test/007.wav
+2025-08-25 03:30:12,546 - WARNING - WorkerThread-0 - empty transcript, moved to failed handled in job
+2025-08-25 03:30:22,824 - INFO - WorkerThread-0 - 使用缓存的模型实例: damo/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch_cuda
+2025-08-25 03:30:22,825 - INFO - WorkerThread-0 - 开始转写文件: 007.wav (大小: 1.00 MB)
+2025-08-25 03:30:24,600 - INFO - WorkerThread-0 - 转写完成: 007.wav, 文本长度: 62
+2025-08-25 03:30:24,601 - INFO - WorkerThread-0 - transcribed seq=7 len=62
+2025-08-25 03:30:36,735 - INFO - MergeThread - 合并完成: archive\full_007_to_007.txt
+2025-08-25 03:30:36,751 - INFO - WorkerThread-0 - 使用缓存的模型实例: damo/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch_cuda
+2025-08-25 03:30:36,752 - INFO - WorkerThread-0 - 开始转写文件: 007.wav (大小: 2.00 MB)
+2025-08-25 03:30:37,591 - INFO - PolishProcessor - 发现 1 个待处理文件
+2025-08-25 03:30:37,591 - INFO - PolishProcessor - 开始处理文件: full_007_to_007.txt
+2025-08-25 03:30:38,403 - INFO - WorkerThread-0 - 转写完成: 007.wav, 文本长度: 60
+2025-08-25 03:30:38,403 - INFO - WorkerThread-0 - transcribed seq=7 len=60
+2025-08-25 03:30:39,696 - INFO - PolishProcessor - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-08-25 03:30:44,292 - INFO - PolishProcessor - 润色成功，文本长度: 62 -> 61
+2025-08-25 03:30:44,295 - INFO - PolishProcessor - 润色完成: full_007_to_007.txt -> polished_full_007_to_007.txt (耗时: 6.69秒)
+2025-08-25 03:30:50,645 - INFO - WorkerThread-1 - 使用缓存的模型实例: damo/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch_cuda
+2025-08-25 03:30:50,647 - INFO - WorkerThread-1 - 开始转写文件: 007.wav (大小: 2.00 MB)
+2025-08-25 03:30:52,351 - INFO - WorkerThread-1 - 转写完成: 007.wav, 文本长度: 66
+2025-08-25 03:30:52,352 - INFO - WorkerThread-1 - transcribed seq=7 len=66
+2025-08-25 03:31:06,748 - INFO - MergeThread - 合并完成: archive\full_007_to_007.txt
+2025-08-25 03:37:31,589 - INFO - WorkerThread-0 - 使用缓存的模型实例: damo/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch_cuda
+2025-08-25 03:37:31,590 - ERROR - WorkerThread-0 - 音频文件为空: Z:/test/008.wav
+2025-08-25 03:37:31,591 - WARNING - WorkerThread-0 - empty transcript, moved to failed handled in job
+2025-08-25 03:37:41,840 - INFO - WorkerThread-1 - 使用缓存的模型实例: damo/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch_cuda
+2025-08-25 03:37:41,841 - INFO - WorkerThread-1 - 开始转写文件: 008.wav (大小: 0.72 MB)
+2025-08-25 03:37:43,347 - INFO - WorkerThread-1 - 转写完成: 008.wav, 文本长度: 11
+2025-08-25 03:37:43,348 - INFO - WorkerThread-1 - transcribed seq=8 len=11
+2025-08-25 03:38:02,389 - INFO - WorkerThread-0 - 使用缓存的模型实例: damo/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch_cuda
+2025-08-25 03:38:02,396 - INFO - WorkerThread-0 - 开始转写文件: 008.wav (大小: 2.00 MB)
+2025-08-25 03:38:04,309 - INFO - WorkerThread-0 - 转写完成: 008.wav, 文本长度: 13
+2025-08-25 03:38:04,310 - INFO - WorkerThread-0 - transcribed seq=8 len=13
+2025-08-25 03:38:06,864 - INFO - MergeThread - 合并完成: archive\full_008_to_008.txt
+2025-08-25 03:38:07,466 - INFO - PolishProcessor - 发现 1 个待处理文件
+2025-08-25 03:38:07,471 - INFO - PolishProcessor - 开始处理文件: full_008_to_008.txt
+2025-08-25 03:38:09,104 - INFO - PolishProcessor - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-08-25 03:38:12,397 - INFO - PolishProcessor - 润色成功，文本长度: 13 -> 17
+2025-08-25 03:38:12,409 - INFO - PolishProcessor - 润色完成: full_008_to_008.txt -> polished_full_008_to_008.txt (耗时: 4.91秒)
+2025-08-25 03:38:22,931 - INFO - WorkerThread-0 - 使用缓存的模型实例: damo/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch_cuda
+2025-08-25 03:38:22,932 - INFO - WorkerThread-0 - 开始转写文件: 008.wav (大小: 2.00 MB)
+2025-08-25 03:38:24,748 - INFO - WorkerThread-0 - 转写完成: 008.wav, 文本长度: 13
+2025-08-25 03:38:24,748 - INFO - WorkerThread-0 - transcribed seq=8 len=13
+2025-08-25 03:38:36,881 - INFO - MergeThread - 合并完成: archive\full_008_to_008.txt
+2025-08-25 03:40:51,618 - INFO - WorkerThread-1 - 使用缓存的模型实例: damo/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch_cuda
+2025-08-25 03:40:51,619 - ERROR - WorkerThread-1 - 音频文件为空: Z:/test/009.wav
+2025-08-25 03:40:51,620 - WARNING - WorkerThread-1 - empty transcript, moved to failed handled in job
+2025-08-25 03:40:58,304 - INFO - WorkerThread-0 - 使用缓存的模型实例: damo/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch_cuda
+2025-08-25 03:40:58,306 - INFO - WorkerThread-0 - 开始转写文件: 009.wav (大小: 0.35 MB)
+2025-08-25 03:40:59,715 - INFO - WorkerThread-0 - 转写完成: 009.wav, 文本长度: 0
+2025-08-25 03:40:59,716 - WARNING - WorkerThread-0 - empty transcript, moved to failed handled in job
+2025-08-25 03:41:11,673 - INFO - WorkerThread-1 - 使用缓存的模型实例: damo/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch_cuda
+2025-08-25 03:41:11,674 - INFO - WorkerThread-1 - 开始转写文件: 009.wav (大小: 2.00 MB)
+2025-08-25 03:41:13,220 - INFO - WorkerThread-1 - 转写完成: 009.wav, 文本长度: 18
+2025-08-25 03:41:13,221 - INFO - WorkerThread-1 - transcribed seq=9 len=18
+2025-08-25 03:41:33,727 - INFO - WorkerThread-0 - 使用缓存的模型实例: damo/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch_cuda
+2025-08-25 03:41:33,728 - INFO - WorkerThread-0 - 开始转写文件: 009.wav (大小: 2.00 MB)
+2025-08-25 03:41:35,486 - INFO - WorkerThread-0 - 转写完成: 009.wav, 文本长度: 28
+2025-08-25 03:41:35,486 - INFO - WorkerThread-0 - transcribed seq=9 len=28
+2025-08-25 03:41:36,930 - INFO - MergeThread - 合并完成: archive\full_009_to_009.txt
+2025-08-25 03:41:37,754 - INFO - PolishProcessor - 发现 1 个待处理文件
+2025-08-25 03:41:37,755 - INFO - PolishProcessor - 开始处理文件: full_009_to_009.txt
+2025-08-25 03:41:39,430 - INFO - PolishProcessor - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-08-25 03:41:43,428 - INFO - PolishProcessor - 润色成功，文本长度: 28 -> 33
+2025-08-25 03:41:43,432 - INFO - PolishProcessor - 润色完成: full_009_to_009.txt -> polished_full_009_to_009.txt (耗时: 5.66秒)
+2025-08-25 04:10:09,854 - INFO - MainThread - 收到停止信号，正在关闭系统...
+2025-08-25 04:10:09,854 - INFO - MainThread - 正在停止润色处理器...

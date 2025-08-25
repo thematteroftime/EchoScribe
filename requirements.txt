@@ -1,0 +1,6 @@
+funasr
+huggingface-hub
+torch
+requests
+openai
+pytest

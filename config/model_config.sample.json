@@ -1,0 +1,24 @@
+{
+  "default_model": "paraformer-zh",
+  "models": {
+    "paraformer-zh": {
+      "model_id": "damo/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch",
+      "device": "auto",
+      "disable_update": true
+    },
+    "sensevoice": {
+      "model_id": "damo/speech_SenseVoice_small",
+      "device": "cuda",
+      "disable_update": false
+    }
+  },
+  "llm_config": {
+    "api_key": "<YOUR_API_KEY>",
+    "base_url": "<YOUR_BASE_URL>",
+    "model": "deepseek-chat",
+    "temperature": 0.3,
+    "max_tokens": 5000
+  }
+}
+
+

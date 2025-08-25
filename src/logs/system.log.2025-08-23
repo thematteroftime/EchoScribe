@@ -1,0 +1,22 @@
+2025-08-23 16:33:01,881 - INFO - WorkerThread - download models from model hub: ms
+2025-08-23 16:33:01,887 - INFO - MainThread - SystemManager started
+2025-08-23 16:33:06,834 - WARNING - WorkerThread - trust_remote_code: False
+2025-08-23 16:33:08,679 - INFO - WorkerThread - Loading pretrained params from C:\Users\21079\.cache\modelscope\hub\models\damo\speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch\model.pt
+2025-08-23 16:33:08,686 - INFO - WorkerThread - ckpt: C:\Users\21079\.cache\modelscope\hub\models\damo\speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch\model.pt
+2025-08-23 16:33:13,584 - INFO - WorkerThread - scope_map: ['module.', 'None']
+2025-08-23 16:33:13,594 - INFO - WorkerThread - excludes: None
+2025-08-23 16:33:19,077 - INFO - WorkerThread - Loading ckpt: C:\Users\21079\.cache\modelscope\hub\models\damo\speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch\model.pt, status: <All keys matched successfully>
+2025-08-23 16:33:30,367 - INFO - WorkerThread - transcribed seq=0 len=740
+2025-08-23 16:33:39,968 - INFO - MergeThread - 合并完成: archive\full_000_to_000.txt
+2025-08-23 16:37:43,977 - INFO - MainThread - SystemManager stopped
+2025-08-23 16:40:40,824 - INFO - WorkerThread - download models from model hub: ms
+2025-08-23 16:40:40,830 - INFO - MainThread - SystemManager started
+2025-08-23 16:40:46,719 - WARNING - WorkerThread - trust_remote_code: False
+2025-08-23 16:40:49,096 - INFO - WorkerThread - Loading pretrained params from C:\Users\21079\.cache\modelscope\hub\models\damo\speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch\model.pt
+2025-08-23 16:40:49,115 - INFO - WorkerThread - ckpt: C:\Users\21079\.cache\modelscope\hub\models\damo\speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch\model.pt
+2025-08-23 16:40:54,032 - INFO - WorkerThread - scope_map: ['module.', 'None']
+2025-08-23 16:40:54,052 - INFO - WorkerThread - excludes: None
+2025-08-23 16:41:02,362 - INFO - WorkerThread - Loading ckpt: C:\Users\21079\.cache\modelscope\hub\models\damo\speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch\model.pt, status: <All keys matched successfully>
+2025-08-23 16:41:15,724 - INFO - WorkerThread - transcribed seq=0 len=740
+2025-08-23 16:41:18,916 - INFO - MergeThread - 合并完成: archive\full_000_to_000.txt
+2025-08-23 16:53:38,518 - INFO - MainThread - SystemManager stopped

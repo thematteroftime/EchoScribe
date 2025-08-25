@@ -1,0 +1,53 @@
+{
+  "input_dir": "input_chunks",
+  "archive_dir": "archive",
+  "polished_dir": "polished_results",
+  "failed_dir": "failed",
+  "transcription": {
+    "concurrency": 2,
+    "buffer_max_fragments": 2000,
+    "merge_interval": 30,
+    "save_file": false
+  },
+  "polishing": {
+    "enabled": true,
+    "service": "deepseek",
+    "api_key": "<YOUR_API_KEY>",
+    "model": "deepseek-chat",
+    "prompt_template": "你是一位专业文本编辑，要求：\\n1. 保留所有技术术语\\n2. 优化句子流畅度\\n3. 不得添加原文没有的信息\\n4. 保持原文的逻辑结构\\n\\n需要润色的文本：{text}",
+    "performance": {
+      "timeout": 60,
+      "max_retries": 2,
+      "chunk_size": 4000,
+      "processing_interval": 1,
+      "temperature": 0.3
+    }
+  },
+  "event_processing": {
+    "enabled": true,
+    "processing_interval": 120,
+    "delete_source_files": false,
+    "llm_config": {
+      "api_key": "<YOUR_API_KEY>",
+      "base_url": "<YOUR_BASE_URL>",
+      "model": "deepseek-chat",
+      "temperature": 0.3,
+      "max_tokens": 1000
+    }
+  },
+  "letter_generation": {
+    "enabled": true,
+    "processing_interval": 30,
+    "event_threshold": 5,
+    "letter_example": "letter_examples/letter_ex1.txt",
+    "output_dir": "letter_output",
+    "llm_config": {
+      "api_key": "<YOUR_API_KEY>",
+      "base_url": "<YOUR_BASE_URL>",
+      "model": "deepseek-chat",
+      "temperature": 0.9,
+      "max_tokens": 5000
+    }
+  },
+  "disk_threshold_gb": 1.0
+}

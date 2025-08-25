@@ -1,0 +1,226 @@
+2025-08-24 15:20:28,348 - __main__ - INFO - 启动后台事件处理线程，间隔: 3600秒
+2025-08-24 15:20:28,350 - src.event_processor - INFO - 后台处理线程已启动，间隔: 3600秒
+2025-08-24 15:20:28,350 - src.event_processor - INFO - 后台处理线程已启动
+2025-08-24 15:20:39,353 - src.event_processor - INFO - 开始处理文件: src/polished_results\polished_full_000_to_006.txt
+2025-08-24 15:20:42,162 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 15:20:49,554 - src.event_processor - INFO - 事件JSON已保存: dataset\20240520-001.json
+2025-08-24 15:20:49,555 - src.event_processor - INFO - 用户档案已更新
+2025-08-24 15:20:49,555 - src.event_processor - INFO - 文件处理完成: src/polished_results\polished_full_000_to_006.txt
+2025-08-24 15:23:16,706 - __main__ - INFO - 收到信号 2，正在停止...
+2025-08-24 15:31:45,007 - __main__ - INFO - 启动后台事件处理线程，间隔: 3600秒
+2025-08-24 15:31:45,008 - src.event_processor - INFO - 后台处理线程已启动，间隔: 3600秒
+2025-08-24 15:31:45,008 - src.event_processor - INFO - 后台处理线程已启动
+2025-08-24 15:31:58,351 - src.event_processor - INFO - 开始处理文件: src/polished_results\polished_full_007_to_022.txt
+2025-08-24 15:32:00,864 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 15:32:08,653 - src.event_processor - INFO - 事件JSON已保存: dataset\20240520-001.json
+2025-08-24 15:32:08,655 - src.event_processor - INFO - 用户档案已更新
+2025-08-24 15:32:08,655 - src.event_processor - INFO - 文件处理完成: src/polished_results\polished_full_007_to_022.txt
+2025-08-24 15:35:55,420 - __main__ - INFO - 收到信号 2，正在停止...
+2025-08-24 16:27:56,824 - __main__ - ERROR - 启动失败: ../config/model_config.json
+2025-08-24 16:27:56,825 - __main__ - INFO - 事件处理器已停止
+2025-08-24 16:28:51,268 - __main__ - ERROR - 启动失败: ../config/model_config.json
+2025-08-24 16:28:51,268 - __main__ - INFO - 事件处理器已停止
+2025-08-24 16:34:39,009 - __main__ - ERROR - 启动失败: ../config/model_config.json
+2025-08-24 16:34:39,010 - __main__ - INFO - 事件处理器已停止
+2025-08-24 16:38:26,429 - __main__ - INFO - 启动后台事件处理线程，间隔: 60秒
+2025-08-24 16:38:26,430 - src.event_processor - INFO - 后台处理线程已启动，间隔: 60秒
+2025-08-24 16:38:26,431 - src.event_processor - INFO - 后台处理线程已启动
+2025-08-24 16:38:26,432 - src.event_processor - INFO - 开始处理文件: src/polished_results\polished_full_000_to_006.txt
+2025-08-24 16:38:28,655 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 16:38:36,191 - src.event_processor - INFO - 事件JSON已保存: dataset\20240520-001.json
+2025-08-24 16:38:36,193 - src.event_processor - INFO - 用户档案已更新
+2025-08-24 16:38:36,193 - src.event_processor - INFO - 文件处理完成: src/polished_results\polished_full_000_to_006.txt
+2025-08-24 16:39:36,207 - src.event_processor - INFO - 开始处理文件: src/polished_results\polished_full_007_to_022.txt
+2025-08-24 16:39:37,986 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 16:39:45,463 - src.event_processor - INFO - 事件JSON已保存: dataset\20240520-001.json
+2025-08-24 16:39:45,465 - src.event_processor - INFO - 用户档案已更新
+2025-08-24 16:39:45,465 - src.event_processor - INFO - 文件处理完成: src/polished_results\polished_full_007_to_022.txt
+2025-08-24 16:40:45,467 - src.event_processor - INFO - 开始处理文件: src/polished_results\polished_full_023_to_040.txt
+2025-08-24 16:40:47,103 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 16:40:54,787 - src.event_processor - INFO - 事件JSON已保存: dataset\20240520-001.json
+2025-08-24 16:40:54,789 - src.event_processor - INFO - 用户档案已更新
+2025-08-24 16:40:54,789 - src.event_processor - INFO - 文件处理完成: src/polished_results\polished_full_023_to_040.txt
+2025-08-24 16:41:54,797 - src.event_processor - INFO - 开始处理文件: src/polished_results\polished_full_039_to_054.txt
+2025-08-24 16:41:57,467 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 16:42:04,620 - src.event_processor - INFO - 事件JSON已保存: dataset\20240520-001.json
+2025-08-24 16:42:04,621 - src.event_processor - INFO - 用户档案已更新
+2025-08-24 16:42:04,621 - src.event_processor - INFO - 文件处理完成: src/polished_results\polished_full_039_to_054.txt
+2025-08-24 16:43:04,625 - src.event_processor - ERROR - 无效的选择
+2025-08-24 16:44:04,642 - src.event_processor - ERROR - 无效的选择
+2025-08-24 16:45:04,649 - src.event_processor - ERROR - 无效的选择
+2025-08-24 16:46:04,656 - src.event_processor - ERROR - 无效的选择
+2025-08-24 16:47:04,674 - src.event_processor - ERROR - 无效的选择
+2025-08-24 16:47:28,861 - __main__ - INFO - 收到信号 2，正在停止...
+2025-08-24 16:55:43,488 - __main__ - INFO - 启动后台事件处理线程，间隔: 60秒
+2025-08-24 16:55:43,490 - src.event_processor - INFO - 后台处理线程已启动，间隔: 60秒
+2025-08-24 16:55:43,490 - src.event_processor - INFO - 后台处理线程已启动
+2025-08-24 16:55:43,492 - src.event_processor - INFO - 开始处理文件: src/polished_results\polished_full_000_to_006.txt
+2025-08-24 16:55:45,442 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 16:55:52,932 - src.event_processor - INFO - 事件JSON已保存: dataset\20250824-002.json
+2025-08-24 16:55:52,933 - src.event_processor - INFO - 用户档案已更新
+2025-08-24 16:55:52,933 - src.event_processor - INFO - 文件处理完成: src/polished_results\polished_full_000_to_006.txt
+2025-08-24 16:56:52,945 - src.event_processor - INFO - 开始处理文件: src/polished_results\polished_full_007_to_022.txt
+2025-08-24 16:56:54,560 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 16:57:02,758 - src.event_processor - INFO - 事件JSON已保存: dataset\20250824-003.json
+2025-08-24 16:57:02,759 - src.event_processor - INFO - 用户档案已更新
+2025-08-24 16:57:02,759 - src.event_processor - INFO - 文件处理完成: src/polished_results\polished_full_007_to_022.txt
+2025-08-24 16:58:02,766 - src.event_processor - INFO - 开始处理文件: src/polished_results\polished_full_023_to_040.txt
+2025-08-24 16:58:04,812 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 16:58:12,292 - src.event_processor - INFO - 事件JSON已保存: dataset\20250824-004.json
+2025-08-24 16:58:12,292 - src.event_processor - INFO - 用户档案已更新
+2025-08-24 16:58:12,293 - src.event_processor - INFO - 文件处理完成: src/polished_results\polished_full_023_to_040.txt
+2025-08-24 16:59:12,302 - src.event_processor - INFO - 开始处理文件: src/polished_results\polished_full_039_to_054.txt
+2025-08-24 16:59:14,033 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 16:59:21,518 - src.event_processor - INFO - 事件JSON已保存: dataset\20250824-005.json
+2025-08-24 16:59:21,519 - src.event_processor - INFO - 用户档案已更新
+2025-08-24 16:59:21,519 - src.event_processor - INFO - 文件处理完成: src/polished_results\polished_full_039_to_054.txt
+2025-08-24 17:00:21,525 - src.event_processor - ERROR - 无效的选择
+2025-08-24 17:01:21,530 - src.event_processor - ERROR - 无效的选择
+2025-08-24 17:02:21,531 - src.event_processor - ERROR - 无效的选择
+2025-08-24 17:03:21,541 - src.event_processor - ERROR - 无效的选择
+2025-08-24 17:03:21,826 - __main__ - INFO - 收到信号 2，正在停止...
+2025-08-24 17:04:30,576 - __main__ - INFO - 启动后台事件处理线程，间隔: 60秒
+2025-08-24 17:04:30,577 - src.event_processor - INFO - 后台处理线程已启动，间隔: 60秒
+2025-08-24 17:04:30,577 - src.event_processor - INFO - 后台处理线程已启动
+2025-08-24 17:04:30,578 - src.event_processor - INFO - 开始处理文件: src/polished_results\polished_full_000_to_006.txt
+2025-08-24 17:04:33,128 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 17:04:40,909 - src.event_processor - INFO - 事件JSON已保存: dataset\20250824-002.json
+2025-08-24 17:04:40,910 - src.event_processor - INFO - 用户档案已更新
+2025-08-24 17:04:40,910 - src.event_processor - INFO - 文件处理完成: src/polished_results\polished_full_000_to_006.txt
+2025-08-24 17:05:40,915 - src.event_processor - INFO - 开始处理文件: src/polished_results\polished_full_007_to_022.txt
+2025-08-24 17:05:43,375 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 17:05:50,525 - src.event_processor - INFO - 事件JSON已保存: dataset\20250824-003.json
+2025-08-24 17:05:50,537 - src.event_processor - INFO - 用户档案已更新
+2025-08-24 17:05:50,537 - src.event_processor - INFO - 文件处理完成: src/polished_results\polished_full_007_to_022.txt
+2025-08-24 17:06:50,551 - src.event_processor - INFO - 开始处理文件: src/polished_results\polished_full_023_to_040.txt
+2025-08-24 17:06:52,276 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 17:07:00,148 - src.event_processor - INFO - 事件JSON已保存: dataset\20250824-004.json
+2025-08-24 17:07:00,149 - src.event_processor - INFO - 用户档案已更新
+2025-08-24 17:07:00,149 - src.event_processor - INFO - 文件处理完成: src/polished_results\polished_full_023_to_040.txt
+2025-08-24 17:08:00,161 - src.event_processor - INFO - 没有找到可处理的文件
+2025-08-24 17:09:00,171 - src.event_processor - INFO - 没有找到可处理的文件
+2025-08-24 17:10:00,175 - src.event_processor - INFO - 没有找到可处理的文件
+2025-08-24 17:11:00,179 - src.event_processor - INFO - 没有找到可处理的文件
+2025-08-24 17:12:00,187 - src.event_processor - INFO - 没有找到可处理的文件
+2025-08-24 17:13:00,205 - src.event_processor - INFO - 没有找到可处理的文件
+2025-08-24 17:14:00,210 - src.event_processor - INFO - 没有找到可处理的文件
+2025-08-24 17:15:00,213 - src.event_processor - INFO - 没有找到可处理的文件
+2025-08-24 17:16:00,220 - src.event_processor - INFO - 没有找到可处理的文件
+2025-08-24 17:17:00,234 - src.event_processor - INFO - 没有找到可处理的文件
+2025-08-24 17:18:00,247 - src.event_processor - INFO - 没有找到可处理的文件
+2025-08-24 17:19:00,256 - src.event_processor - INFO - 没有找到可处理的文件
+2025-08-24 17:20:00,264 - src.event_processor - INFO - 没有找到可处理的文件
+2025-08-24 17:21:00,269 - src.event_processor - INFO - 没有找到可处理的文件
+2025-08-24 17:21:21,451 - __main__ - INFO - 收到信号 2，正在停止...
+2025-08-24 18:13:57,398 - __main__ - INFO - 启动后台事件处理线程，间隔: 60秒
+2025-08-24 18:13:57,410 - src.event_processor - INFO - 后台处理线程已启动，间隔: 60秒
+2025-08-24 18:13:57,410 - src.event_processor - INFO - 后台处理线程已启动
+2025-08-24 18:13:57,412 - src.event_processor - INFO - 开始处理文件: src/polished_results\polished_full_000_to_006.txt
+2025-08-24 18:13:59,992 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 18:14:08,225 - src.event_processor - INFO - 事件JSON已保存: dataset\20250824-001.json
+2025-08-24 18:14:08,228 - src.event_processor - INFO - 用户档案已更新
+2025-08-24 18:14:08,228 - src.event_processor - INFO - 文件处理完成: src/polished_results\polished_full_000_to_006.txt
+2025-08-24 18:15:08,245 - src.event_processor - INFO - 开始处理文件: src/polished_results\polished_full_007_to_022.txt
+2025-08-24 18:15:10,738 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 18:15:18,643 - src.event_processor - INFO - 事件JSON已保存: dataset\20250824-002.json
+2025-08-24 18:15:18,644 - src.event_processor - INFO - 用户档案已更新
+2025-08-24 18:15:18,644 - src.event_processor - INFO - 文件处理完成: src/polished_results\polished_full_007_to_022.txt
+2025-08-24 18:16:18,659 - src.event_processor - INFO - 开始处理文件: src/polished_results\polished_full_023_to_040.txt
+2025-08-24 18:16:21,706 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 18:16:29,910 - src.event_processor - INFO - 事件JSON已保存: dataset\20250824-003.json
+2025-08-24 18:16:29,912 - src.event_processor - INFO - 用户档案已更新
+2025-08-24 18:16:29,912 - src.event_processor - INFO - 文件处理完成: src/polished_results\polished_full_023_to_040.txt
+2025-08-24 18:17:29,920 - src.event_processor - INFO - 没有找到可处理的文件
+2025-08-24 18:18:29,929 - src.event_processor - INFO - 没有找到可处理的文件
+2025-08-24 18:19:29,935 - src.event_processor - INFO - 没有找到可处理的文件
+2025-08-24 18:20:29,941 - src.event_processor - INFO - 没有找到可处理的文件
+2025-08-24 18:21:29,949 - src.event_processor - INFO - 没有找到可处理的文件
+2025-08-24 18:22:29,953 - src.event_processor - INFO - 没有找到可处理的文件
+2025-08-24 18:23:29,962 - src.event_processor - INFO - 没有找到可处理的文件
+2025-08-24 18:24:29,971 - src.event_processor - INFO - 没有找到可处理的文件
+2025-08-24 19:50:17,949 - src.event_processor - INFO - 没有找到可处理的文件
+2025-08-24 19:50:30,254 - __main__ - INFO - 收到信号 2，正在停止...
+2025-08-24 19:53:08,880 - __main__ - INFO - 启动后台事件处理线程，间隔: 60秒
+2025-08-24 19:54:09,180 - src.event_processor - INFO - 后台处理线程已启动，间隔: 60秒
+2025-08-24 19:54:09,183 - src.event_processor - INFO - 开始处理文件: src/polished_results\polished_full_000_to_006.txt
+2025-08-24 19:54:10,801 - src.event_processor - INFO - 后台处理线程已启动
+2025-08-24 19:54:16,701 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 19:54:25,037 - src.event_processor - INFO - 事件JSON已保存: dataset\20250824-001.json
+2025-08-24 19:54:25,038 - src.event_processor - INFO - 用户档案已更新
+2025-08-24 19:54:25,039 - src.event_processor - INFO - 文件处理完成: src/polished_results\polished_full_000_to_006.txt
+2025-08-24 19:54:51,918 - __main__ - INFO - 收到信号 2，正在停止...
+2025-08-24 20:03:53,124 - __main__ - INFO - 启动后台事件处理线程，间隔: 60秒
+2025-08-24 20:03:53,125 - src.event_processor - INFO - 后台处理线程已启动，间隔: 60秒
+2025-08-24 20:03:53,126 - src.event_processor - INFO - 后台处理线程已启动
+2025-08-24 20:03:53,127 - src.event_processor - INFO - 开始处理文件: src/polished_results\polished_full_000_to_006.txt
+2025-08-24 20:03:55,465 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 20:04:02,751 - src.event_processor - INFO - 事件JSON已保存: dataset\20250824-001.json
+2025-08-24 20:04:02,751 - src.event_processor - INFO - 用户档案已更新
+2025-08-24 20:04:02,751 - src.event_processor - INFO - 文件处理完成: src/polished_results\polished_full_000_to_006.txt
+2025-08-24 20:05:02,756 - src.event_processor - INFO - 开始处理文件: src/polished_results\polished_full_007_to_022.txt
+2025-08-24 20:05:05,418 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 20:05:12,647 - src.event_processor - INFO - 事件JSON已保存: dataset\20250824-002.json
+2025-08-24 20:05:12,649 - src.event_processor - INFO - 用户档案已更新
+2025-08-24 20:05:12,649 - src.event_processor - INFO - 文件处理完成: src/polished_results\polished_full_007_to_022.txt
+2025-08-24 20:06:12,652 - src.event_processor - INFO - 开始处理文件: src/polished_results\polished_full_023_to_040.txt
+2025-08-24 20:06:15,016 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 20:06:22,174 - src.event_processor - INFO - 事件JSON已保存: dataset\20250824-003.json
+2025-08-24 20:06:22,175 - src.event_processor - INFO - 用户档案已更新
+2025-08-24 20:06:22,175 - src.event_processor - INFO - 文件处理完成: src/polished_results\polished_full_023_to_040.txt
+2025-08-24 20:07:22,191 - src.event_processor - INFO - 开始处理文件: src/polished_results\polished_full_039_to_054.txt
+2025-08-24 20:07:24,762 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 20:07:31,933 - src.event_processor - INFO - 事件JSON已保存: dataset\20250824-004.json
+2025-08-24 20:07:31,946 - src.event_processor - INFO - 用户档案已更新
+2025-08-24 20:07:31,946 - src.event_processor - INFO - 文件处理完成: src/polished_results\polished_full_039_to_054.txt
+2025-08-24 20:08:31,952 - src.event_processor - INFO - 没有找到可处理的文件
+2025-08-24 20:08:52,928 - __main__ - INFO - 收到信号 2，正在停止...
+2025-08-25 03:25:22,643 - __main__ - INFO - 启动后台事件处理线程，间隔: 120秒
+2025-08-25 03:25:22,653 - src.event_processor - INFO - 后台处理线程已启动，间隔: 120秒
+2025-08-25 03:25:22,653 - src.event_processor - INFO - 后台处理线程已启动
+2025-08-25 03:25:22,654 - src.event_processor - ERROR - 无效的选择
+2025-08-25 03:27:18,559 - __main__ - INFO - 收到信号 2，正在停止...
+2025-08-25 03:27:27,630 - __main__ - INFO - 启动后台事件处理线程，间隔: 120秒
+2025-08-25 03:27:27,631 - src.event_processor - INFO - 后台处理线程已启动，间隔: 120秒
+2025-08-25 03:27:27,631 - src.event_processor - INFO - 后台处理线程已启动
+2025-08-25 03:27:27,632 - src.event_processor - ERROR - 无效的选择
+2025-08-25 03:28:51,411 - __main__ - INFO - 收到信号 2，正在停止...
+2025-08-25 03:28:56,416 - src.event_processor - INFO - 后台处理线程已停止
+2025-08-25 03:28:56,417 - __main__ - INFO - 事件处理器已停止
+2025-08-25 03:30:09,916 - __main__ - INFO - 启动后台事件处理线程，间隔: 120秒
+2025-08-25 03:30:09,917 - src.event_processor - INFO - 后台处理线程已启动，间隔: 120秒
+2025-08-25 03:30:09,917 - src.event_processor - INFO - 后台处理线程已启动
+2025-08-25 03:30:09,918 - src.event_processor - INFO - 开始处理文件: src/polished_results\polished_full_006_to_006.txt
+2025-08-25 03:30:11,936 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-25 03:30:19,218 - src.event_processor - INFO - 事件JSON已保存: dataset\20250825-006.json
+2025-08-25 03:30:19,231 - src.event_processor - INFO - 用户档案已更新
+2025-08-25 03:30:19,231 - src.event_processor - INFO - 文件处理完成: src/polished_results\polished_full_006_to_006.txt
+2025-08-25 03:32:19,235 - src.event_processor - INFO - 开始处理文件: src/polished_results\polished_full_007_to_007.txt
+2025-08-25 03:32:20,952 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-25 03:32:28,132 - src.event_processor - INFO - 事件JSON已保存: dataset\20250825-007.json
+2025-08-25 03:32:28,133 - src.event_processor - INFO - 用户档案已更新
+2025-08-25 03:32:28,133 - src.event_processor - INFO - 文件处理完成: src/polished_results\polished_full_007_to_007.txt
+2025-08-25 03:34:28,137 - src.event_processor - INFO - 没有找到可处理的文件
+2025-08-25 03:36:28,151 - src.event_processor - INFO - 没有找到可处理的文件
+2025-08-25 03:38:28,158 - src.event_processor - INFO - 开始处理文件: src/polished_results\polished_full_008_to_008.txt
+2025-08-25 03:38:29,903 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-25 03:38:36,652 - src.event_processor - INFO - 事件JSON已保存: dataset\20250825-008.json
+2025-08-25 03:38:36,654 - src.event_processor - INFO - 用户档案已更新
+2025-08-25 03:38:36,654 - src.event_processor - INFO - 文件处理完成: src/polished_results\polished_full_008_to_008.txt
+2025-08-25 03:40:36,658 - src.event_processor - INFO - 没有找到可处理的文件
+2025-08-25 03:42:36,671 - src.event_processor - INFO - 开始处理文件: src/polished_results\polished_full_009_to_009.txt
+2025-08-25 03:42:38,619 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-25 03:42:45,277 - src.event_processor - INFO - 事件JSON已保存: dataset\20250825-009.json
+2025-08-25 03:42:45,279 - src.event_processor - INFO - 用户档案已更新
+2025-08-25 03:42:45,279 - src.event_processor - INFO - 文件处理完成: src/polished_results\polished_full_009_to_009.txt
+2025-08-25 03:44:45,282 - src.event_processor - INFO - 没有找到可处理的文件
+2025-08-25 03:46:45,298 - src.event_processor - INFO - 没有找到可处理的文件
+2025-08-25 03:48:45,304 - src.event_processor - INFO - 没有找到可处理的文件
+2025-08-25 03:50:57,692 - src.event_processor - INFO - 没有找到可处理的文件
+2025-08-25 03:53:31,362 - src.event_processor - INFO - 没有找到可处理的文件
+2025-08-25 03:55:31,378 - src.event_processor - INFO - 没有找到可处理的文件
+2025-08-25 03:57:31,381 - src.event_processor - INFO - 没有找到可处理的文件
+2025-08-25 03:59:31,384 - src.event_processor - INFO - 没有找到可处理的文件
+2025-08-25 04:01:31,392 - src.event_processor - INFO - 没有找到可处理的文件
+2025-08-25 04:07:15,846 - src.event_processor - INFO - 没有找到可处理的文件
+2025-08-25 04:09:15,857 - src.event_processor - INFO - 没有找到可处理的文件
+2025-08-25 04:10:14,141 - __main__ - INFO - 收到信号 2，正在停止...

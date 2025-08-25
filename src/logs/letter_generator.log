@@ -1,0 +1,256 @@
+2025-08-24 21:28:50,702 - __main__ - INFO - 启动信件生成后台线程
+2025-08-24 21:28:50,703 - src.letter_generator - INFO - 信件生成线程已启动，间隔: 7200秒
+2025-08-24 21:28:50,703 - src.letter_generator - INFO - 信件生成线程已启动
+2025-08-24 21:28:50,703 - src.letter_generator - INFO - 事件阈值: 5
+2025-08-24 21:28:50,714 - src.letter_generator - INFO - 开始生成信件...
+2025-08-24 21:28:53,969 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 21:29:20,690 - src.letter_generator - INFO - 信件已保存: D:\codingFiles\pythonFiles\AllPythonCodingFiles\forGPU\LLM_detect12\letter_output\letter_20250824_212920.txt
+2025-08-24 21:29:20,693 - src.letter_generator - INFO - 信件生成完成
+2025-08-24 21:29:20,694 - src.letter_generator - INFO - 信件生成成功
+2025-08-24 21:36:15,935 - __main__ - INFO - 收到信号 2，正在停止...
+2025-08-24 21:36:21,822 - __main__ - INFO - 启动信件生成后台线程
+2025-08-24 21:36:21,823 - src.letter_generator - INFO - 信件生成线程已启动，间隔: 7200秒
+2025-08-24 21:36:21,823 - src.letter_generator - INFO - 信件生成线程已启动
+2025-08-24 21:36:21,823 - src.letter_generator - INFO - 事件阈值: 5
+2025-08-24 21:36:21,825 - src.letter_generator - INFO - 开始生成信件...
+2025-08-24 21:36:23,994 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 21:36:49,810 - src.letter_generator - INFO - 信件已保存: D:\codingFiles\pythonFiles\AllPythonCodingFiles\forGPU\LLM_detect12\letter_output\letter_20250824_213649.txt
+2025-08-24 21:36:49,811 - src.letter_generator - INFO - 信件生成完成
+2025-08-24 21:36:49,812 - src.letter_generator - INFO - 信件生成成功
+2025-08-24 21:41:55,410 - __main__ - INFO - 收到信号 2，正在停止...
+2025-08-24 21:42:01,763 - __main__ - INFO - 启动信件生成后台线程
+2025-08-24 21:42:01,764 - src.letter_generator - INFO - 信件生成线程已启动，间隔: 7200秒
+2025-08-24 21:42:01,764 - src.letter_generator - INFO - 信件生成线程已启动
+2025-08-24 21:42:01,764 - src.letter_generator - INFO - 事件阈值: 5
+2025-08-24 21:42:01,765 - src.letter_generator - INFO - 开始生成信件...
+2025-08-24 21:42:04,451 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 21:42:29,138 - src.letter_generator - INFO - 信件已保存: D:\codingFiles\pythonFiles\AllPythonCodingFiles\forGPU\LLM_detect12\letter_output\letter_20250824_214229.txt
+2025-08-24 21:42:29,157 - src.letter_generator - INFO - 信件生成完成
+2025-08-24 21:42:29,157 - src.letter_generator - INFO - 信件生成成功
+2025-08-24 21:44:48,790 - __main__ - INFO - 收到信号 2，正在停止...
+2025-08-24 21:44:54,017 - __main__ - INFO - 启动信件生成后台线程
+2025-08-24 21:44:54,018 - src.letter_generator - INFO - 信件生成线程已启动，间隔: 7200秒
+2025-08-24 21:44:54,018 - src.letter_generator - INFO - 信件生成线程已启动
+2025-08-24 21:44:54,018 - src.letter_generator - INFO - 事件阈值: 5
+2025-08-24 21:44:54,019 - src.letter_generator - INFO - 开始生成信件...
+2025-08-24 21:44:56,183 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 21:45:22,216 - src.letter_generator - INFO - 信件已保存: D:\codingFiles\pythonFiles\AllPythonCodingFiles\forGPU\LLM_detect12\letter_output\letter_20250824_214522.txt
+2025-08-24 21:45:22,217 - src.letter_generator - INFO - 信件生成完成
+2025-08-24 21:45:22,217 - src.letter_generator - INFO - 信件生成成功
+2025-08-24 21:46:05,276 - __main__ - INFO - 收到信号 2，正在停止...
+2025-08-24 21:46:55,039 - __main__ - INFO - 启动信件生成后台线程
+2025-08-24 21:46:55,041 - src.letter_generator - INFO - 信件生成线程已启动，间隔: 7200秒
+2025-08-24 21:46:55,041 - src.letter_generator - INFO - 事件阈值: 5
+2025-08-24 21:46:55,041 - src.letter_generator - INFO - 信件生成线程已启动
+2025-08-24 21:46:55,041 - src.letter_generator - INFO - 开始生成信件...
+2025-08-24 21:46:57,609 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 21:47:22,020 - src.letter_generator - INFO - 信件已保存: D:\codingFiles\pythonFiles\AllPythonCodingFiles\forGPU\LLM_detect12\letter_output\letter_20250824_214722.txt
+2025-08-24 21:47:22,022 - src.letter_generator - INFO - 信件生成完成
+2025-08-24 21:47:22,022 - src.letter_generator - INFO - 信件生成成功
+2025-08-24 21:48:38,280 - __main__ - INFO - 收到信号 2，正在停止...
+2025-08-24 22:02:27,274 - __main__ - INFO - 启动信件生成后台线程
+2025-08-24 22:02:27,287 - src.letter_generator - INFO - 信件生成线程已启动，间隔: 7200秒
+2025-08-24 22:02:27,287 - src.letter_generator - INFO - 事件阈值: 5
+2025-08-24 22:02:27,287 - src.letter_generator - INFO - 开始生成信件...
+2025-08-24 22:02:27,287 - src.letter_generator - INFO - 信件生成线程已启动
+2025-08-24 22:02:29,732 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 22:02:57,719 - src.letter_generator - INFO - 信件已保存: D:\codingFiles\pythonFiles\AllPythonCodingFiles\forGPU\LLM_detect12\letter_output\letter_20250824_220257.txt
+2025-08-24 22:02:57,720 - src.letter_generator - INFO - 信件生成完成
+2025-08-24 22:02:57,720 - src.letter_generator - INFO - 信件生成成功
+2025-08-24 22:06:41,565 - __main__ - INFO - 收到信号 2，正在停止...
+2025-08-24 22:08:10,382 - __main__ - INFO - 启动信件生成后台线程
+2025-08-24 22:08:10,384 - src.letter_generator - INFO - 信件生成线程已启动，间隔: 7200秒
+2025-08-24 22:08:10,384 - src.letter_generator - INFO - 事件阈值: 5
+2025-08-24 22:08:10,384 - src.letter_generator - INFO - 信件生成线程已启动
+2025-08-24 22:08:10,385 - src.letter_generator - INFO - 开始生成信件...
+2025-08-24 22:08:14,824 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 22:08:38,704 - src.letter_generator - INFO - 信件已保存: D:\codingFiles\pythonFiles\AllPythonCodingFiles\forGPU\LLM_detect12\letter_output\letter_20250824_220838.txt
+2025-08-24 22:08:38,705 - src.letter_generator - INFO - 信件生成完成
+2025-08-24 22:08:38,705 - src.letter_generator - INFO - 信件生成成功
+2025-08-24 22:12:25,285 - __main__ - INFO - 收到信号 2，正在停止...
+2025-08-24 22:12:51,161 - __main__ - INFO - 启动信件生成后台线程
+2025-08-24 22:12:51,162 - src.letter_generator - INFO - 信件生成线程已启动，间隔: 7200秒
+2025-08-24 22:12:51,162 - src.letter_generator - INFO - 信件生成线程已启动
+2025-08-24 22:12:51,162 - src.letter_generator - INFO - 事件阈值: 5
+2025-08-24 22:12:51,163 - src.letter_generator - INFO - 开始生成信件...
+2025-08-24 22:12:53,882 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 22:13:20,813 - src.letter_generator - INFO - 信件已保存: D:\codingFiles\pythonFiles\AllPythonCodingFiles\forGPU\LLM_detect12\letter_output\letter_20250824_221320.txt
+2025-08-24 22:13:20,815 - src.letter_generator - INFO - 信件生成完成
+2025-08-24 22:13:20,815 - src.letter_generator - INFO - 信件生成成功
+2025-08-24 22:15:19,475 - __main__ - INFO - 收到信号 2，正在停止...
+2025-08-24 22:16:06,446 - __main__ - INFO - 启动信件生成后台线程
+2025-08-24 22:16:06,447 - src.letter_generator - INFO - 信件生成线程已启动，间隔: 7200秒
+2025-08-24 22:16:06,451 - src.letter_generator - INFO - 事件阈值: 5
+2025-08-24 22:16:06,451 - src.letter_generator - INFO - 信件生成线程已启动
+2025-08-24 22:16:06,451 - src.letter_generator - INFO - 开始生成信件...
+2025-08-24 22:16:10,985 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 22:16:27,822 - src.letter_generator - INFO - 信件已保存: D:\codingFiles\pythonFiles\AllPythonCodingFiles\forGPU\LLM_detect12\letter_output\letter_20250824_221627.txt
+2025-08-24 22:16:27,824 - src.letter_generator - INFO - 信件生成完成
+2025-08-24 22:16:27,824 - src.letter_generator - INFO - 信件生成成功
+2025-08-24 22:19:39,510 - __main__ - INFO - 收到信号 2，正在停止...
+2025-08-24 22:23:23,153 - __main__ - INFO - 启动信件生成后台线程
+2025-08-24 22:23:23,154 - src.letter_generator - INFO - 信件生成线程已启动，间隔: 7200秒
+2025-08-24 22:23:23,154 - src.letter_generator - INFO - 信件生成线程已启动
+2025-08-24 22:23:23,155 - src.letter_generator - INFO - 事件阈值: 5
+2025-08-24 22:23:23,155 - src.letter_generator - INFO - 开始生成信件...
+2025-08-24 22:23:25,564 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 22:23:44,007 - src.letter_generator - INFO - 信件已保存: D:\codingFiles\pythonFiles\AllPythonCodingFiles\forGPU\LLM_detect12\letter_output\letter_20250824_222344.txt
+2025-08-24 22:23:44,007 - src.letter_generator - INFO - 信件生成完成
+2025-08-24 22:23:44,007 - src.letter_generator - INFO - 信件生成成功
+2025-08-24 22:25:44,297 - __main__ - INFO - 收到信号 2，正在停止...
+2025-08-24 22:25:57,842 - __main__ - INFO - 启动信件生成后台线程
+2025-08-24 22:25:57,843 - src.letter_generator - INFO - 信件生成线程已启动，间隔: 7200秒
+2025-08-24 22:25:57,843 - src.letter_generator - INFO - 事件阈值: 5
+2025-08-24 22:25:57,843 - src.letter_generator - INFO - 信件生成线程已启动
+2025-08-24 22:25:57,843 - src.letter_generator - INFO - 开始生成信件...
+2025-08-24 22:25:59,774 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 22:26:23,857 - src.letter_generator - INFO - 信件已保存: D:\codingFiles\pythonFiles\AllPythonCodingFiles\forGPU\LLM_detect12\letter_output\letter_20250824_222623.txt
+2025-08-24 22:26:23,858 - src.letter_generator - INFO - 信件生成完成
+2025-08-24 22:26:23,858 - src.letter_generator - INFO - 信件生成成功
+2025-08-24 22:38:07,253 - __main__ - INFO - 收到信号 2，正在停止...
+2025-08-25 02:55:12,116 - __main__ - INFO - 启动信件生成后台线程
+2025-08-25 02:55:12,119 - src.letter_generator - INFO - 信件生成线程已启动，间隔: 7200秒
+2025-08-25 02:55:12,119 - src.letter_generator - INFO - 信件生成线程已启动
+2025-08-25 02:55:12,119 - src.letter_generator - INFO - 事件阈值: 5
+2025-08-25 02:55:12,121 - src.letter_generator - INFO - 开始生成信件...
+2025-08-25 02:55:14,458 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-25 02:55:41,610 - src.letter_generator - INFO - 信件已保存: D:\codingFiles\pythonFiles\AllPythonCodingFiles\forGPU\LLM_detect12\letter_output\letter_20250825_025541.txt
+2025-08-25 02:55:41,611 - src.letter_generator - INFO - 信件生成完成
+2025-08-25 02:55:41,611 - src.letter_generator - INFO - 信件生成成功
+2025-08-25 02:57:27,041 - __main__ - INFO - 收到信号 2，正在停止...
+2025-08-25 02:58:33,528 - __main__ - INFO - 启动信件生成后台线程
+2025-08-25 02:58:33,530 - src.letter_generator - INFO - 信件生成线程已启动，间隔: 7200秒
+2025-08-25 02:58:33,530 - src.letter_generator - INFO - 信件生成线程已启动
+2025-08-25 02:58:33,530 - src.letter_generator - INFO - 事件阈值: 5
+2025-08-25 02:58:33,531 - src.letter_generator - INFO - 开始生成信件...
+2025-08-25 02:58:35,564 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-25 02:59:03,036 - src.letter_generator - INFO - 信件已保存: Z:/letter_output\letter_20250825_025903.txt
+2025-08-25 02:59:03,038 - src.letter_generator - INFO - 信件生成完成
+2025-08-25 02:59:03,038 - src.letter_generator - INFO - 信件生成成功
+2025-08-25 03:15:10,564 - __main__ - INFO - 收到信号 2，正在停止...
+2025-08-25 03:31:06,525 - __main__ - INFO - 启动信件生成后台线程
+2025-08-25 03:31:06,527 - src.letter_generator - INFO - 信件生成线程已启动，间隔: 300秒
+2025-08-25 03:31:06,527 - src.letter_generator - INFO - 信件生成线程已启动
+2025-08-25 03:31:06,527 - src.letter_generator - INFO - 事件阈值: 5
+2025-08-25 03:31:06,528 - src.letter_generator - INFO - 开始生成信件...
+2025-08-25 03:31:08,453 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-25 03:31:34,300 - src.letter_generator - INFO - 信件已保存: Z:/letter_output\letter_20250825_033134.txt
+2025-08-25 03:31:34,301 - src.letter_generator - INFO - 信件生成完成
+2025-08-25 03:31:34,301 - src.letter_generator - INFO - 信件生成成功
+2025-08-25 03:36:34,311 - src.letter_generator - INFO - 开始生成信件...
+2025-08-25 03:36:35,933 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-25 03:37:01,664 - src.letter_generator - INFO - 信件已保存: Z:/letter_output\letter_20250825_033701.txt
+2025-08-25 03:37:01,665 - src.letter_generator - INFO - 信件生成完成
+2025-08-25 03:37:01,666 - src.letter_generator - INFO - 信件生成成功
+2025-08-25 03:42:01,682 - src.letter_generator - INFO - 开始生成信件...
+2025-08-25 03:42:03,396 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-25 03:42:30,663 - src.letter_generator - INFO - 信件已保存: Z:/letter_output\letter_20250825_034230.txt
+2025-08-25 03:42:30,665 - src.letter_generator - INFO - 信件生成完成
+2025-08-25 03:42:30,665 - src.letter_generator - INFO - 信件生成成功
+2025-08-25 03:47:30,680 - src.letter_generator - INFO - 开始生成信件...
+2025-08-25 03:47:32,772 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-25 03:47:59,568 - src.letter_generator - INFO - 信件已保存: Z:/letter_output\letter_20250825_034759.txt
+2025-08-25 03:47:59,570 - src.letter_generator - INFO - 信件生成完成
+2025-08-25 03:47:59,570 - src.letter_generator - INFO - 信件生成成功
+2025-08-25 03:53:45,599 - src.letter_generator - INFO - 开始生成信件...
+2025-08-25 03:53:47,793 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-25 03:54:11,563 - src.letter_generator - INFO - 信件已保存: Z:/letter_output\letter_20250825_035411.txt
+2025-08-25 03:54:11,565 - src.letter_generator - INFO - 信件生成完成
+2025-08-25 03:54:11,565 - src.letter_generator - INFO - 信件生成成功
+2025-08-25 03:59:11,580 - src.letter_generator - INFO - 开始生成信件...
+2025-08-25 03:59:13,417 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-25 03:59:51,139 - src.letter_generator - INFO - 信件已保存: Z:/letter_output\letter_20250825_035951.txt
+2025-08-25 03:59:51,143 - src.letter_generator - INFO - 信件生成完成
+2025-08-25 03:59:51,143 - src.letter_generator - INFO - 信件生成成功
+2025-08-25 04:08:35,602 - src.letter_generator - INFO - 开始生成信件...
+2025-08-25 04:08:37,517 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-25 04:09:06,822 - src.letter_generator - INFO - 信件已保存: Z:/letter_output\letter_20250825_040906.txt
+2025-08-25 04:09:06,824 - src.letter_generator - INFO - 信件生成完成
+2025-08-25 04:09:06,824 - src.letter_generator - INFO - 信件生成成功
+2025-08-25 04:10:18,931 - __main__ - INFO - 收到信号 2，正在停止...
+2025-08-25 13:39:10,462 - __main__ - INFO - 启动信件生成后台线程
+2025-08-25 13:39:10,464 - src.letter_generator - INFO - 信件生成线程已启动，间隔: 30秒
+2025-08-25 13:39:10,464 - src.letter_generator - INFO - 信件生成线程已启动
+2025-08-25 13:39:10,464 - src.letter_generator - INFO - 事件阈值: 5
+2025-08-25 13:39:10,465 - src.letter_generator - INFO - 开始生成信件...
+2025-08-25 13:39:12,940 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-25 13:39:41,182 - src.letter_generator - ERROR - 保存信件失败: [WinError 1326] 用户名或密码不正确。: 'Z:/'
+2025-08-25 13:39:41,182 - src.letter_generator - ERROR - 信件生成失败
+2025-08-25 13:39:54,013 - __main__ - INFO - 收到信号 2，正在停止...
+2025-08-25 13:41:31,146 - __main__ - INFO - 启动信件生成后台线程
+2025-08-25 13:41:31,146 - src.letter_generator - INFO - 信件生成线程已启动，间隔: 30秒
+2025-08-25 13:41:31,146 - src.letter_generator - INFO - 信件生成线程已启动
+2025-08-25 13:41:31,147 - src.letter_generator - INFO - 事件阈值: 5
+2025-08-25 13:41:31,147 - src.letter_generator - INFO - 开始生成信件...
+2025-08-25 13:41:33,228 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-25 13:41:58,027 - src.letter_generator - INFO - 信件已保存: Z:/letter_output\letter_20250825_134158.txt
+2025-08-25 13:41:58,028 - src.letter_generator - INFO - 信件生成完成
+2025-08-25 13:41:58,028 - src.letter_generator - INFO - 信件生成成功
+2025-08-25 13:42:28,043 - src.letter_generator - INFO - 开始生成信件...
+2025-08-25 13:42:30,055 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-25 13:42:55,995 - src.letter_generator - INFO - 信件已保存: Z:/letter_output\letter_20250825_134255.txt
+2025-08-25 13:42:55,996 - src.letter_generator - INFO - 信件生成完成
+2025-08-25 13:42:55,996 - src.letter_generator - INFO - 信件生成成功
+2025-08-25 13:43:26,006 - src.letter_generator - INFO - 开始生成信件...
+2025-08-25 13:43:28,422 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-25 13:43:52,912 - src.letter_generator - INFO - 信件已保存: Z:/letter_output\letter_20250825_134352.txt
+2025-08-25 13:43:52,914 - src.letter_generator - INFO - 信件生成完成
+2025-08-25 13:43:52,914 - src.letter_generator - INFO - 信件生成成功
+2025-08-25 13:44:22,926 - src.letter_generator - INFO - 开始生成信件...
+2025-08-25 13:44:24,753 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-25 13:44:48,245 - src.letter_generator - INFO - 信件已保存: Z:/letter_output\letter_20250825_134448.txt
+2025-08-25 13:44:48,246 - src.letter_generator - INFO - 信件生成完成
+2025-08-25 13:44:48,246 - src.letter_generator - INFO - 信件生成成功
+2025-08-25 13:45:18,252 - src.letter_generator - INFO - 开始生成信件...
+2025-08-25 13:45:20,140 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-25 13:45:45,081 - src.letter_generator - INFO - 信件已保存: Z:/letter_output\letter_20250825_134545.txt
+2025-08-25 13:45:45,084 - src.letter_generator - INFO - 信件生成完成
+2025-08-25 13:45:45,084 - src.letter_generator - INFO - 信件生成成功
+2025-08-25 13:46:15,086 - src.letter_generator - INFO - 开始生成信件...
+2025-08-25 13:46:16,867 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-25 13:46:43,103 - src.letter_generator - INFO - 信件已保存: Z:/letter_output\letter_20250825_134643.txt
+2025-08-25 13:46:43,104 - src.letter_generator - INFO - 信件生成完成
+2025-08-25 13:46:43,104 - src.letter_generator - INFO - 信件生成成功
+2025-08-25 13:47:13,111 - src.letter_generator - INFO - 开始生成信件...
+2025-08-25 13:47:15,648 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-25 13:47:42,599 - src.letter_generator - INFO - 信件已保存: Z:/letter_output\letter_20250825_134742.txt
+2025-08-25 13:47:42,600 - src.letter_generator - INFO - 信件生成完成
+2025-08-25 13:47:42,601 - src.letter_generator - INFO - 信件生成成功
+2025-08-25 13:48:12,605 - src.letter_generator - INFO - 开始生成信件...
+2025-08-25 13:48:14,316 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-25 13:48:41,991 - src.letter_generator - INFO - 信件已保存: Z:/letter_output\letter_20250825_134841.txt
+2025-08-25 13:48:41,992 - src.letter_generator - INFO - 信件生成完成
+2025-08-25 13:48:41,992 - src.letter_generator - INFO - 信件生成成功
+2025-08-25 13:49:12,008 - src.letter_generator - INFO - 开始生成信件...
+2025-08-25 13:49:13,809 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-25 13:49:39,576 - src.letter_generator - INFO - 信件已保存: Z:/letter_output\letter_20250825_134939.txt
+2025-08-25 13:49:39,577 - src.letter_generator - INFO - 信件生成完成
+2025-08-25 13:49:39,577 - src.letter_generator - INFO - 信件生成成功
+2025-08-25 13:50:09,589 - src.letter_generator - INFO - 开始生成信件...
+2025-08-25 13:50:11,664 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-25 13:50:38,746 - src.letter_generator - INFO - 信件已保存: Z:/letter_output\letter_20250825_135038.txt
+2025-08-25 13:50:38,748 - src.letter_generator - INFO - 信件生成完成
+2025-08-25 13:50:38,748 - src.letter_generator - INFO - 信件生成成功
+2025-08-25 13:51:08,762 - src.letter_generator - INFO - 开始生成信件...
+2025-08-25 13:51:10,885 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-25 13:51:37,690 - src.letter_generator - INFO - 信件已保存: Z:/letter_output\letter_20250825_135137.txt
+2025-08-25 13:51:37,691 - src.letter_generator - INFO - 信件生成完成
+2025-08-25 13:51:37,691 - src.letter_generator - INFO - 信件生成成功
+2025-08-25 13:52:07,693 - src.letter_generator - INFO - 开始生成信件...
+2025-08-25 13:52:09,942 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-25 13:52:37,089 - src.letter_generator - INFO - 信件已保存: Z:/letter_output\letter_20250825_135237.txt
+2025-08-25 13:52:37,091 - src.letter_generator - INFO - 信件生成完成
+2025-08-25 13:52:37,091 - src.letter_generator - INFO - 信件生成成功
+2025-08-25 13:53:07,100 - src.letter_generator - INFO - 开始生成信件...
+2025-08-25 13:53:10,151 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-25 13:53:37,405 - src.letter_generator - INFO - 信件已保存: Z:/letter_output\letter_20250825_135337.txt
+2025-08-25 13:53:37,406 - src.letter_generator - INFO - 信件生成完成
+2025-08-25 13:53:37,406 - src.letter_generator - INFO - 信件生成成功
+2025-08-25 13:54:07,409 - src.letter_generator - INFO - 开始生成信件...
+2025-08-25 13:54:08,926 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-25 13:54:33,508 - src.letter_generator - INFO - 信件已保存: Z:/letter_output\letter_20250825_135433.txt
+2025-08-25 13:54:33,510 - src.letter_generator - INFO - 信件生成完成
+2025-08-25 13:54:33,510 - src.letter_generator - INFO - 信件生成成功
+2025-08-25 13:55:03,525 - src.letter_generator - INFO - 开始生成信件...
+2025-08-25 13:58:01,179 - openai._base_client - INFO - Retrying request to /chat/completions in 0.489528 seconds
+2025-08-25 13:58:06,387 - __main__ - INFO - 收到信号 2，正在停止...
