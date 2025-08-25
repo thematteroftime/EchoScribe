@@ -1,4 +1,7 @@
 <img width="1024" height="1536" alt="ChatGPT Image 2025年8月25日 23_24_36" src="https://github.com/user-attachments/assets/0ad44c0c-8b1f-4e71-a943-a3ebbdf0b77b" />
+
+---  
+
 ## EchoScribe 项目指南（新手友好）
 
 本项目是一个面向本地与云端混合流程的语音转写与文本生成系统，包含三条主要能力链：
@@ -138,6 +141,7 @@ python -m EchoScribe.src.letter_generator
 
 ### 许可证
 本仓库未附带明确许可证，请在公开或商用前确认版权与第三方模型/接口条款。
+
 
 
 
